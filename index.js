@@ -52,7 +52,6 @@ program
     .command('order')
     .description('Order a burger')
     .action(async function(){
-        console.log('in action')
         const answers = await inquirer.prompt(prompts)
         const spinner = createSpinner('Your Order is in process').start()
         spinner.spin()

@@ -10,8 +10,8 @@
   "bin": {
     "burger-maker": "./index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["node", "cli", "commander", "inquirer", "cli-tool"],
+  "author": "Rohit Ambre",
   "license": "ISC",
   "dependencies": {
     "commander": "^12.0.0",
